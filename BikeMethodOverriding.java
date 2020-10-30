@@ -14,11 +14,11 @@ System.out.println("Honda speed is 60");
 }
 }
 class Pulsar extends Bike{
-void cost(){
+void run(){
 System.out.println("Pulsar is running safely");
 }
 void speed(){
-System.out.println("pulsar speed is 80");
+System.out.println("Pulsar speed is 80");
 }
 }
 class BikeMethodOverriding{
@@ -28,7 +28,7 @@ x.changeGear();
 x.run();
 x.speed();
 x=new pulsar();
-x.changedGear();
+x.changeGear();
 x.run();
 x.speed();
 }
