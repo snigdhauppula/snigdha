@@ -34,12 +34,12 @@ class Customer
 public class CustomerMain {
 public static void main(String args[])
 {
-	Customer vasavi=new Customer();
+	Customer cu=new Customer();
 	new Thread()
 	{
 		public void run()
 		{
-			vasavi.withdraw(15000);
+			cu.withdraw(15000);
 		}
 	}
 	.start();
@@ -47,7 +47,7 @@ public static void main(String args[])
 	{
 		public void run()
 		{
-			vasavi.deposit(20000);
+			cu.deposit(20000);
 		}
 	}.start();
 }
