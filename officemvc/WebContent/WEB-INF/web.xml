@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>com.office.EmployeeRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/employee_register</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>com.office.EmployeeLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/employee_login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>third</servlet-name>
+		<servlet-class>com.office.ManagerRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>third</servlet-name>
+		<url-pattern>/manager_register</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fourth</servlet-name>
+		<servlet-class>com.office.ManagerLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fourth</servlet-name>
+		<url-pattern>/manager_login</url-pattern>
+	</servlet-mapping>
+</web-app>
