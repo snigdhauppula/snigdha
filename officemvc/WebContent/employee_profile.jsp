@@ -39,7 +39,7 @@
 		<td><%=erb.getDesignation()%></td>
 		<td><%=erb.getExperience()%></td>
 		<td><%=erb.getNo_of_leaves_taken() %></td>
-		<td><%=20-erb.getNo_of_leaves_taken() %></td>
+		<td><%=erb.getNo_of_leaves_taken() %></td>
 		<td><a href="update_employee_profile.jsp?id=<%=erb.getEid()%>">update</a></td>
 	</tr>
 	<%

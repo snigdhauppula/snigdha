@@ -1,35 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <web-app>
 	<servlet>
-		<servlet-name>first</servlet-name>
+		<servlet-name>app1</servlet-name>
 		<servlet-class>com.office.EmployeeRegister</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>first</servlet-name>
+		<servlet-name>app1</servlet-name>
 		<url-pattern>/employee_register</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>second</servlet-name>
+		<servlet-name>app2</servlet-name>
 		<servlet-class>com.office.EmployeeLogin</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>second</servlet-name>
+		<servlet-name>app2</servlet-name>
 		<url-pattern>/employee_login</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>third</servlet-name>
+		<servlet-name>app3</servlet-name>
 		<servlet-class>com.office.ManagerRegister</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>third</servlet-name>
+		<servlet-name>app3</servlet-name>
 		<url-pattern>/manager_register</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>fourth</servlet-name>
+		<servlet-name>app4</servlet-name>
 		<servlet-class>com.office.ManagerLogin</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>fourth</servlet-name>
+		<servlet-name>app4</servlet-name>
 		<url-pattern>/manager_login</url-pattern>
 	</servlet-mapping>
-</web-app>
+	<servlet>
+	<servlet-name>app5</servlet-name>
+	<servlet-class>com.office.ManagerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>app5</servlet-name>
+	<url-pattern>/manager_update</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>app6</servlet-name>
+	<servlet-class>com.office.EmployeeUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>app6</servlet-name>
+	<url-pattern>/employee_update</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>app7</servlet-name>
+	<servlet-class>com.office.Leave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>app7</servlet-name>
+	<url-pattern>/apply_leave</url-pattern>
+	</servlet-mapping>
+	
+	</web-app>
