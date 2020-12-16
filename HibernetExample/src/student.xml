@@ -9,3 +9,4 @@
 <property name="marks" column="marks"></property>
 </class>
 </hibernate-mapping>
+ 
