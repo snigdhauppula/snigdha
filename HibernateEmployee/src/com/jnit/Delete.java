@@ -1,7 +1,5 @@
 package com.jnit;
-
 import java.util.Scanner;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
