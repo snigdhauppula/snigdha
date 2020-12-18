@@ -10,15 +10,11 @@ import org.hibernate.cfg.Configuration;
 public class EmployeeMain {
 
 	public static void main(String[] args) {
-		Configuration cf=new Configuration();
-		cf.configure("configuration.xml");
-		SessionFactory sf=cf.buildSessionFactory();
-		Session se=sf.openSession();
+		Session se=Config.config();
 		Transaction tx=se.beginTransaction();
-		Employee emp=new Employee();
 		tx.commit();
 		Scanner sc=new Scanner(System.in);
-		System.out.println("1.Insert \n2.Display \n3.Update \n4.Delete \n5.Exit");
+		System.out.println("1.Insert\n 2.Display\n 3.Update\n 4.Delete\n 5.Exit");
 		int number=0;
 		for(;number<=5;) {
 			System.out.println("Enter a number between 1 and 5");
